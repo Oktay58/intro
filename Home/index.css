@@ -1,6 +1,7 @@
 body {
     background-color: rgb(177, 227, 227);
-    
+    font-family: 'Maven Pro', sans-serif;
+    overflow: hidden;
 }
 
 .navbar {

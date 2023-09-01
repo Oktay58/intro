@@ -1,0 +1,93 @@
+body {
+    
+    background: linear-gradient(60deg, rgb(0, 0, 0) 0%, rgb(55, 54, 54) 100%);
+    font-family: 'Maven Pro', sans-serif;
+    margin: 0;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  h3:hover {
+    color: #c41919;
+  }
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 500px;
+}
+
+.portfolio-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+.portfolio-item:hover{
+  margin-top: 2%;
+  background-color: #6f00ff;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.portfolio-item h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+.portfolio-item p {
+    color: #777;
+}
+  p {
+    color: white;
+  }
+  
+#text {
+    text-align: center;
+  }
+  
+a:hover {
+    color: #fff;
+  }
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    
+}
+
+.navbar a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: all 400ms ease-out;
+}
+.navbar a:hover {
+    background-color: #b5b5b5;
+    color: black;
+    transition: all 400ms;
+}
+
+.navbar a.active {
+    background-color: #6f00ff;
+    color: white;
+}
+
+#titel1 {
+    color: #fff;
+    text-align: center;
+}
