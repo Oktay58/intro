@@ -43,6 +43,8 @@ h1 {
   font-weight:300;
   letter-spacing: 2px;
   font-size:48px;
+  align-content: center;
+  
 }
 p {
   font-family: 'Lato', sans-serif;
@@ -194,7 +196,7 @@ form {
     margin-top: 5%;
     font-size: 24px;
     box-shadow: 10px 10px 10px #c0c0c0ab;
-
+    margin-left: 660px;
 }
 
 #submit {
