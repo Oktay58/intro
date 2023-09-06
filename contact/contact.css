@@ -196,19 +196,21 @@ form {
     margin-top: 5%;
     font-size: 24px;
     box-shadow: 10px 10px 10px #c0c0c0ab;
-    margin-left: 660px;
+    margin-left: 730px;
 }
 
-#submit {
-    text-decoration: none;
-    color: white;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    font-family: 'F1';
-    font-size: 19px;
-    
+.submit {
+  text-decoration: none;
+  color: #ffffff; /* White color */
+  background-color: #3498db; /* Nice blue color */
+  border: none;
+  border-radius: 10px; /* Rounded corners for a nice look */
+  padding: 10px 20px; /* Adjust padding for size */
+  cursor: pointer;
+  font-family: 'F1';
+  font-size: 19px;
 }
-#submit:hover {
-    color: rgb(0, 255, 0);
+
+.submit:hover {
+  background-color: #2980b9; /* Darker blue on hover for a nice effect */
 }

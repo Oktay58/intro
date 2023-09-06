@@ -21,12 +21,13 @@ body {
   
   
 #text {
-    text-align: center;
+    text-align: left;
     position: absolute;
     color: white;
-    font-size: 30px;
-    margin-left: 300px;
-    margin-right: 300px;
+    font-size: 1.2em;
+    width: 800px;
+    margin-top: 50px;
+    margin-left: 27px;
   }
   
 a:hover {
@@ -61,10 +62,12 @@ a:hover {
 
 #titel1 {
     color: #fff;
-    text-align: center;
-    
+    text-align: left;
+    margin-top: 130px;
+    margin-left: 300px;
 }
 
 h3 {
   text-decoration: none;
 }
+
